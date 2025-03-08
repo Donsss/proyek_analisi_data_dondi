@@ -24,7 +24,7 @@ def hitung_total_penyewa(data):
     total_rentals.columns = ['Type', 'Count']
     return total_rentals
 
-data = pd.read_csv('all_data.csv')
+data = pd.read_csv('Dashboard/all_data.csv')
 
 st.header('Dashboard Bike Sharing :bike:')
 st.subheader('Tren Penyewa Sepeda')
