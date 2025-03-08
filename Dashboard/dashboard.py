@@ -26,7 +26,7 @@ def hitung_total_penyewa(data):
 
 data = pd.read_csv('Dashboard/all_data.csv')
 
-st.header('Dashboard Bike Sharing :bike:')
+st.header('Bike Sharing Dashboard :bike:')
 st.subheader('Tren Penyewa Sepeda')
 
 total_sewa_2011 = hitung_total_penyewa_per_tahun(data, 2011)
